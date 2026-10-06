@@ -3,3 +3,8 @@
 // Commit 1: "scaffold loop structure"
 // Commit 2: "added even number condition"
 // Commit 3: "refactored variable names for clarity"
+
+for (int i = 2; i <= 20; i += 2)
+{
+    Console.WriteLine(i);
+}
