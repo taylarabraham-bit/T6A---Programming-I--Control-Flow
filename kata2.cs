@@ -4,7 +4,7 @@
 // Commit 2: "added fizzbuzz logic"
 // Commit 3: "refactored with clear variable and comments"
 for(int i = 1; i <= 20; i++)
-{
+{   //Checks if its divisible by both 3 and 5 first, then checks for 3 and 5 separately, otherwise prints the number. && Is a true flase condition that is followed by an if variable after if the result is falase.
     if (i % 3 == 0 && i % 5 == 0)
     {
         Console.WriteLine("FizzBuzz");
